@@ -84,6 +84,11 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
     padding: theme.spacing(3),
   },
+
+  link: {
+    textDecoration: 'none',
+    color: theme.palette.text.primary,
+  },
 }));
 
 export default function MiniDrawer() {
@@ -145,25 +150,25 @@ export default function MiniDrawer() {
         </div>
         <Divider />
         <List>
-        <Link to="/Mash">
+        <Link to="/Mash" className={classes.link}>
             <ListItem button key="Mash" >
                 <ListItemIcon><img src={MashIcon} /></ListItemIcon>
                 <ListItemText primary="Mash" />
             </ListItem>
           </Link>
-          <Link to="/Boil">
+          <Link to="/Boil" className={classes.link}>
             <ListItem button key="Boil">
                 <ListItemIcon><img src={BoilIcon} /></ListItemIcon>
                 <ListItemText primary="Boil" />
             </ListItem>
           </Link>
-          <Link to="/Cool">
+          <Link to="/Cool" className={classes.link}>
             <ListItem button key="Cool">
                 <ListItemIcon><img src={CoolIcon} /></ListItemIcon>
                 <ListItemText primary="Cool" />
             </ListItem>
           </Link>
-          <Link to="/Recipes">
+          <Link to="/Recipes" className={classes.link}>
             <ListItem button key="Recipes">
                 <ListItemIcon><img src={RecipesIcon} /></ListItemIcon>
                 <ListItemText primary="Recipes" />
@@ -172,7 +177,7 @@ export default function MiniDrawer() {
         </List>
         <Divider />
         <List>
-          <Link to="Settings">
+          <Link to="/Settings" className={classes.link}>
             <ListItem button key="Settings">
                 <ListItemIcon><img src={SettingsIcon} /></ListItemIcon>
                 <ListItemText primary="Settings" />
