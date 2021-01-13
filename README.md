@@ -1,4 +1,4 @@
-#Homebrew PID controller
+# Homebrew PID controller
 
 **This project is a work in progress**
 **This project has taken a backseat to other my other projects**
@@ -9,10 +9,10 @@ The project is based on React.js and Material UI with a Django (python) backend.
 
 ## Mash
 
-![alt text](https://github.com/Wayne-Dreyer/HomeBrew/blob/master/MashScreen.jpg?raw=true)
+![alt text](https://github.com/Wayne-Dreyer/HomeBrew/blob/master/MashScreen.JPG?raw=true)
 
 
-##React
+## React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
