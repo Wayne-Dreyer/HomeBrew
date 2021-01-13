@@ -1,3 +1,19 @@
+#Homebrew PID controller
+
+**This project is a work in progress**
+**This project has taken a backseat to other my other projects**
+This project is designed to be run entirely on a raspberry pi with 1024x600px touch screen, with the pi setup to boot into chrome kiosk mode,
+running both the back end and displaying the projects front end. With the front end still accessable over a webview based android application on the same network as the pi.
+
+The project is based on React.js and Material UI with a Django (python) backend.
+
+## Mash
+
+![alt text](https://github.com/Wayne-Dreyer/HomeBrew/blob/master/MashScreen.jpg?raw=true)
+
+
+##React
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
